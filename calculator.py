@@ -25,16 +25,13 @@ while True:
     if choice == '0':
         print("Goodbye!")
         break
+
     try:
         num1 = float(input("Enter first number: "))
-    except ValueError:
-            print("Invalid number! Try again.")
-            continue
-    try:
         num2 = float(input("Enter second number: "))
     except ValueError:
-            print("Invalid number! Try again.")
-            continue
+        print("❌ Invalid number! Please enter digits only.")
+        continue
 
     if choice == '1':
         print("Result:", add(num1, num2))
