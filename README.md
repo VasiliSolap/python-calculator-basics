@@ -1,16 +1,15 @@
-# Python Calculator Basics
+Select operation:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Show history
+0. Exit
+Enter choice (0–5): 1
+Enter first number: 10
+Enter second number: 5
+Result: 15.0
 
-A simple command-line calculator built with Python.
-
-## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Input validation
-- Exit option
-
-## How to Run
-## Future improvements
-- History of calculations
-- GUI version
+Enter choice (0–5): 5
+History:
+10 + 5 = 15.0
